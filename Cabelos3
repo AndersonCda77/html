@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos de Cabelo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .porcentagem {
+      width: 30%;
+    }
+    
+    .baixo {
+      background-color: #90EE90; /* Verde */
+    }
+    
+    .medio {
+      background-color: #FFFF99; /* Amarelo */
+    }
+    
+    .alto {
+      background-color: #FF7F7F; /* Vermelho */
+    }
+  </style>
+</head>
+<body>
+  <h1>Tipos de Cabelo</h1>
+  
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Descrição</th>
+      <th class="porcentagem">Porcentagem</th>
+    </tr>
+    <tr>
+      <td>Cabelo Liso</td>
+      <td>O cabelo liso é caracterizado por ser reto e sem ondas.</td>
+      <td class="porcentagem baixo">10%</td>
+    </tr>
+    <tr>
+      <td>Cabelo Ondulado</td>
+      <td>O cabelo ondulado tem leves ondas e cachos suaves.</td>
+      <td class="porcentagem medio">30%</td>
+    </tr>
+    <tr>
+      <td>Cabelo Cacheado</td>
+      <td>O cabelo cacheado possui cachos mais definidos e encurvados.</td>
+      <td class="porcentagem alto">50%</td>
+    </tr>
+    <tr>
+      <td>Cabelo Crespo</td>
+      <td>O cabelo crespo tem cachos apertados e bem definidos.</td>
+      <td class="porcentagem alto">50%</td>
+    </tr>
+    <tr>
+      <td>Cabelo Afro</td>
+      <td>O cabelo afro é caracterizado por cachos muito apertados ou padrão zigue-zague.</td>
+      <td class="porcentagem alto">50%</td>
+    </tr>
+  </table>
+</body>
+</html>
